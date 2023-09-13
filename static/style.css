@@ -1,0 +1,50 @@
+html, body, *{
+    box-sizing: border-box;
+    margin: 2;
+    padding: 0;
+    font-family: 'Bungee', cursive;
+    background-color: #766aac
+}
+/* body{
+    font-family: 'Bungee', cursive;
+    background-color: #766aac
+} */
+.blue-back{
+    background-color: #766aac;
+    height: 100%;
+    color: #fff59c;
+}
+/* selection of element */
+span{ /* least specific */
+    color: green;
+}
+  
+  h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+  }
+  
+  h2 {font-size: 2.441rem;}
+  
+  h3 {font-size: 1.953rem;}
+  
+  h4 {font-size: 1.563rem;}
+  
+  h5 {font-size: 1.25rem;}
+
+.card-img{
+    width: 25%;
+}
+
+
+
+.meme{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 200px;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
