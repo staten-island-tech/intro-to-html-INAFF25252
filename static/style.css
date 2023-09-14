@@ -7,7 +7,7 @@ html, body, *{
 
 .header{
     width: 100%;
-    height: 30%;
+    height: 50%;
     background-color: #fff59c;
 }
 
@@ -19,26 +19,49 @@ html, body, *{
   
   h2 {font-size: 3rem; text-align: center;}
   
-  h3 {font-size: 2rem; text-align: center;}
+  h3 {font-size: 1.75rem; text-align: center;}
   
-  h4 {font-size: 1.5rem; text-align: center;}
+  h4 {font-size: 1.25rem; text-align: center;}
   
-  h5 {font-size: 1.25rem; text-align: center;}
+  h5 {font-size: 1rem; text-align: center;}
   li {font-size: 1.25rem; text-align: center;}
  
- 
+  .card{
+    color: #d098f7;
+    height: 30%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 3%;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.card:hover{
+    transform:  translateY(-5px);
+
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly; /* allocateas extra space inbetween or around our elements */ 
+    flex-wrap: wrap; /* wraps next card to new line when space is gone */
+    width: 100%;
+    margin: 3% auto; /* centers element */
+}
 
 .card-img{
     width: 70%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    margin: 3% auto;}
 
 .img{
     width: 80%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    margin: 3% auto;}
 
 
 
